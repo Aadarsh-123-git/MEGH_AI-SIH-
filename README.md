@@ -2,30 +2,14 @@
 
 **MEGH-AI** is an AI-powered hyper-local severe weather nowcasting and disaster management platform.
 
----
+Problem Statement & MEGH-AI Solution:
 
-## 🚀 Quick Start Guide
+Challenge: Frequent extreme convective weather events (cloudbursts, severe thunderstorms with hail/lightning, flash floods) across India require short-range (2–6 hour) hyper-local forecasting that traditional NWP models miss due to coarse grid/latency.
+Solution: Multi-source telemetry fusion (IMDAA reanalysis, INSAT-3D/3DR satellite feeds, QPE rain-rates, CartoDEM) with dynamic physics features (CAPE, CIN, IWV, CTT drop rates) & Explainable AI (XAI) for emergency alerts.
+Complete Installation & Setup Guide:
 
-### 1. Install Dependencies
-npm install
-
-### 2. Run Development Server
-npm run dev
-
----
-
-## 🌐 Localhost Access
-
-Open your web browser and navigate to:
-👉 http://localhost:3000
-
----
-
-## 📋 Available Commands
-
-| Command | Description |
-| :--- | :--- |
-| `npm run dev` | Starts the Next.js development server at http://localhost:3000 |
-| `npm run build` | Builds the production-ready optimized application |
-| `npm run start` | Starts the production server after building |
-| `npm run lint` | Runs ESLint to check for code quality issues |
+Step 1: Downloading & installing Node.js LTS (includes npm) for Windows/macOS (brew install node option included).
+Step 2: Restarting VS Code to reload PATH environment variables.
+Step 3: Verifying installation (node --version and npm --version) with PATH troubleshooting tips.
+Step 4: Installing dependencies (cd warning_project → npm install).
+Step 5: Running the app (npm run dev) and opening http://localhost:3000.
