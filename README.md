@@ -1,20 +1,31 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# 🌩️ MEGH-AI: AI-Driven Early Warning System
 
-# Run and deploy your AI Studio app
+**MEGH-AI** is an AI-powered hyper-local severe weather nowcasting and disaster management platform.
 
-This contains everything you need to run your app locally.
+---
 
-View your app in AI Studio: https://ai.studio/apps/934aed4b-4615-4c1a-8174-c81bbd799cf3
+## 🚀 Quick Start Guide
 
-## Run Locally
+### 1. Install Dependencies
+npm install
 
-**Prerequisites:**  Node.js
+### 2. Run Development Server
+npm run dev
 
+---
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## 🌐 Localhost Access
+
+Open your web browser and navigate to:
+👉 http://localhost:3000
+
+---
+
+## 📋 Available Commands
+
+| Command | Description |
+| :--- | :--- |
+| `npm run dev` | Starts the Next.js development server at http://localhost:3000 |
+| `npm run build` | Builds the production-ready optimized application |
+| `npm run start` | Starts the production server after building |
+| `npm run lint` | Runs ESLint to check for code quality issues |
