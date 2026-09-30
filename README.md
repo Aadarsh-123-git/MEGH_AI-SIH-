@@ -8,6 +8,9 @@ Challenge: Frequent extreme convective weather events (cloudbursts, severe thund
 flash floods) across India require short-range (2–6 hour) hyper-local forecasting that traditional NWP models miss due to coarse grid/latency.
 Solution: Multi-source telemetry fusion (IMDAA reanalysis, INSAT-3D/3DR satellite feeds, QPE rain-rates, CartoDEM)
 with dynamic physics features (CAPE, CIN, IWV, CTT drop rates) & Explainable AI (XAI) for emergency alerts.
+
+Deployement link: https://megh-ai-sih-jaadarsh143-3515s-projects.vercel.app/
+
 Complete Installation & Setup Guide:
 
 Step 1: Downloading & installing Node.js LTS (includes npm) for Windows/macOS (brew install node option included).
